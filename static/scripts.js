@@ -135,7 +135,7 @@ async function obtenerProductos() {
 // Llamar a la función obtenerProductos al cargar la página
 window.addEventListener("load", obtenerProductos);
 
-fetch('https://loud-monkeys-share.loca.lt/mi-endpoint', {
+fetch('https://big-pillows-own.loca.lt', {
 method: 'GET',
 headers: {
     'Content-Type': 'application/json',
