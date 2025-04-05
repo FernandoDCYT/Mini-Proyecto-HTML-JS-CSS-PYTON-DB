@@ -134,3 +134,13 @@ async function obtenerProductos() {
 
 // Llamar a la función obtenerProductos al cargar la página
 window.addEventListener("load", obtenerProductos);
+
+fetch('https://loud-monkeys-share.loca.lt/mi-endpoint', {
+method: 'GET',
+headers: {
+    'Content-Type': 'application/json',
+},
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.log('Error:', error));
